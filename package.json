@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.19.0",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babili-webpack-plugin": "0.0.7",
+    "copy-webpack-plugin": "^0.3.3",
+    "webpack": "^2.2.0-rc.3"
+  },
+  "scripts": {
+    "build": "webpack --optimize-minimize -p",
+    "watch": "webpack --optimize-minimize --watch",
+    "001": "node ./node_modules/webpack/bin/webpack.js -p --config webpack/001.js",
+    "002": "node ./node_modules/webpack/bin/webpack.js -p --config webpack/002.js",
+    "003": "node ./node_modules/webpack/bin/webpack.js -p --config webpack/003.js",
+    "004": "node ./node_modules/webpack/bin/webpack.js -p --config webpack/004.js",
+    "005": "node ./node_modules/webpack/bin/webpack.js --config webpack/005.js",
+    "006": "node ./node_modules/webpack/bin/webpack.js --config webpack/006.js",
+    "007": "node ./node_modules/webpack/bin/webpack.js --config webpack/007.js"
+  },
+  "author": "Axel Rauschmayer",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.18.2"
+  }
+}
