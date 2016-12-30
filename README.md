@@ -4,5 +4,5 @@
 
 ```shell
 $ npm install
-$ npm run 001 # 001 - 004
+$ npm run 001 # 001 - 007
 ```
